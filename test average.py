@@ -1,12 +1,17 @@
-score1=0
-score2=0
-total=0
-average=0
-scorecount=0
+numberofscores= 0
+score= 0
+scorecount= 0
+total= 0
+average= 0
 
-score1 = int(input("Please enter a test score"))
-score2= int(input("Please enter a test score"))
-
-average= (score1+score2)/2
-
-print=(average)
+numberofscores= int(input(Enter the number of test score you want averaged"))
+                          
+while scorecount < numberofscores:
+                          score=int(input("Please input a score:"))
+                          total +=score
+                          scorecount +=1
+                          print("Score Received")
+                          
+average= total/numberofscores
+                        
+print("The average for the given test score is:",average)
