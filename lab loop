@@ -1,0 +1,7 @@
+total = 0
+x = 1
+
+while x < 10:
+    total= total+x
+    x= x+1
+print(total)
